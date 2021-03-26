@@ -1,0 +1,38 @@
+create a folder and create a sub folder called client where you will install react.
+npx create-react-app . within the client folder
+
+create a file called server.js and install nodemon and reference nodemon in package.json with server
+replacing index all in package.json
+
+install the folloing packages
+
+express
+mongoose
+nodemon as a dev dependency.
+
+in the client remove the git by running
+rm -rf .git
+
+to check if it is gone we use the command
+ls -a
+
+create a .gitignore in the root directory
+
+Then edit the package.json file in root directory by adding the following
+
+/node_modules
+node_modules/
+
+config.env
+
+finally add git by running the command below in the root folder
+
+git init
+
+After running the command above it should gray out these file and folders. Meaning they will not be added to the 
+github repository.
+
+
+
+
+
